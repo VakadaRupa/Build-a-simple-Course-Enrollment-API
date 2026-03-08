@@ -10,4 +10,6 @@ if (!supabaseUrl || !supabaseKey) {
   console.warn('Warning: SUPABASE_URL or SUPABASE_KEY is missing in environment variables.');
 }
 
+
 export const supabase = createClient(supabaseUrl, supabaseKey);
+export default supabase;
