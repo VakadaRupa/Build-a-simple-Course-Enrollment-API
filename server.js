@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(logger);
 
 // Routes
-app.use('/', courseRoutes);
+app.use('/courses', courseRoutes);
 
 // Test route
 app.get('/', (req, res) => {
