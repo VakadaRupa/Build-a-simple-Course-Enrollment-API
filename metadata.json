@@ -1,0 +1,5 @@
+{
+  "name": "Course Enrollment API",
+  "description": "A simple Course Enrollment API using Node.js, Express, and Supabase.",
+  "requestFramePermissions": []
+}
